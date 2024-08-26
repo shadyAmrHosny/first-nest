@@ -12,6 +12,7 @@ services:
       DB_PASSWORD: pass1234
       DB_NAME: funapp
       JWT_SECRET: shezlong
+      PORT: 3000
     depends_on:
       - db
 
